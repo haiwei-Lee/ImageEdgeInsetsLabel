@@ -1,0 +1,15 @@
+//
+//  ViewController.h
+//  ImageEdgeInsetsLabel
+//
+//  Created by lee on 2018/4/13.
+//  Copyright © 2018年 首约科技（北京）有限公司 Inc. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface ViewController : UIViewController
+
+
+@end
+
