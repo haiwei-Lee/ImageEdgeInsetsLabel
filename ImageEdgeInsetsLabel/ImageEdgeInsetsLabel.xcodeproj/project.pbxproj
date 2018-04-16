@@ -13,6 +13,9 @@
 		9BE571FF20808F99003C864A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BE571FE20808F99003C864A /* Assets.xcassets */; };
 		9BE5720220808F99003C864A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BE5720020808F99003C864A /* LaunchScreen.storyboard */; };
 		9BE5720520808F99003C864A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BE5720420808F99003C864A /* main.m */; };
+		9BE5720D208090B7003C864A /* ImageEdgeInsetsLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BE5720C208090B7003C864A /* ImageEdgeInsetsLabel.m */; };
+		9BE57210208094CA003C864A /* UIView+Rect.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BE5720F208094CA003C864A /* UIView+Rect.m */; };
+		9BEE1E3B20847A2000C6A6F1 /* HexColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BEE1E3920847A2000C6A6F1 /* HexColors.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,12 @@
 		9BE5720120808F99003C864A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9BE5720320808F99003C864A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9BE5720420808F99003C864A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9BE5720B208090B7003C864A /* ImageEdgeInsetsLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageEdgeInsetsLabel.h; sourceTree = "<group>"; };
+		9BE5720C208090B7003C864A /* ImageEdgeInsetsLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageEdgeInsetsLabel.m; sourceTree = "<group>"; };
+		9BE5720E208094CA003C864A /* UIView+Rect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Rect.h"; sourceTree = "<group>"; };
+		9BE5720F208094CA003C864A /* UIView+Rect.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Rect.m"; sourceTree = "<group>"; };
+		9BEE1E3920847A2000C6A6F1 /* HexColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HexColors.m; sourceTree = "<group>"; };
+		9BEE1E3A20847A2000C6A6F1 /* HexColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HexColors.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +71,12 @@
 				9BE571F620808F98003C864A /* AppDelegate.m */,
 				9BE571F820808F98003C864A /* ViewController.h */,
 				9BE571F920808F98003C864A /* ViewController.m */,
+				9BE5720B208090B7003C864A /* ImageEdgeInsetsLabel.h */,
+				9BE5720C208090B7003C864A /* ImageEdgeInsetsLabel.m */,
+				9BE5720E208094CA003C864A /* UIView+Rect.h */,
+				9BE5720F208094CA003C864A /* UIView+Rect.m */,
+				9BEE1E3A20847A2000C6A6F1 /* HexColors.h */,
+				9BEE1E3920847A2000C6A6F1 /* HexColors.m */,
 				9BE571FB20808F98003C864A /* Main.storyboard */,
 				9BE571FE20808F99003C864A /* Assets.xcassets */,
 				9BE5720020808F99003C864A /* LaunchScreen.storyboard */,
@@ -143,7 +158,10 @@
 			files = (
 				9BE571FA20808F98003C864A /* ViewController.m in Sources */,
 				9BE5720520808F99003C864A /* main.m in Sources */,
+				9BE57210208094CA003C864A /* UIView+Rect.m in Sources */,
+				9BEE1E3B20847A2000C6A6F1 /* HexColors.m in Sources */,
 				9BE571F720808F98003C864A /* AppDelegate.m in Sources */,
+				9BE5720D208090B7003C864A /* ImageEdgeInsetsLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
